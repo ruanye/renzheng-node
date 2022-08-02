@@ -23,7 +23,7 @@ app.use("/api", api);
 app.use("/mock", allapi);
 app.use("/project", project);
 app.use("/statistical", statistical);
-app.listen(80, () => {
+app.listen(8083, () => {
   console.log("监听80端口");
 });
 module.exports = app;
