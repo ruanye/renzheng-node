@@ -60,9 +60,7 @@ module.exports = {
 
             }
         });
-      }
-    });
-  },
+    },
 
   // 用户登录
   signin: async (req, res) => {
